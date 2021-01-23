@@ -15,6 +15,8 @@
 		FA3152F825BC65410037C7D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA3152F625BC65410037C7D9 /* LaunchScreen.storyboard */; };
 		FA31530325BC65410037C7D9 /* QuizAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31530225BC65410037C7D9 /* QuizAppTests.swift */; };
 		FA31530E25BC65410037C7D9 /* QuizAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31530D25BC65410037C7D9 /* QuizAppUITests.swift */; };
+		FA31532625BC6A180037C7D9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31532525BC6A180037C7D9 /* DetailViewController.swift */; };
+		FA31533325BC6CB40037C7D9 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA31533225BC6CB40037C7D9 /* UIButton+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FA31530925BC65410037C7D9 /* QuizAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA31530D25BC65410037C7D9 /* QuizAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAppUITests.swift; sourceTree = "<group>"; };
 		FA31530F25BC65410037C7D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA31532525BC6A180037C7D9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FA31533225BC6CB40037C7D9 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				FA3152EB25BC653E0037C7D9 /* AppDelegate.swift */,
 				FA3152ED25BC653E0037C7D9 /* SceneDelegate.swift */,
 				FA3152EF25BC653E0037C7D9 /* ViewController.swift */,
+				FA31532525BC6A180037C7D9 /* DetailViewController.swift */,
+				FA31533225BC6CB40037C7D9 /* UIButton+Extension.swift */,
 				FA3152F125BC653E0037C7D9 /* Main.storyboard */,
 				FA3152F425BC65410037C7D9 /* Assets.xcassets */,
 				FA3152F625BC65410037C7D9 /* LaunchScreen.storyboard */,
@@ -261,6 +267,8 @@
 				FA3152F025BC653E0037C7D9 /* ViewController.swift in Sources */,
 				FA3152EC25BC653E0037C7D9 /* AppDelegate.swift in Sources */,
 				FA3152EE25BC653E0037C7D9 /* SceneDelegate.swift in Sources */,
+				FA31533325BC6CB40037C7D9 /* UIButton+Extension.swift in Sources */,
+				FA31532625BC6A180037C7D9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
